@@ -1,3 +1,35 @@
-#cadastro form{
-    
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLlNwYWNlTGl2ZVdhbGxwYXBlckhEX3NjcmVlbl82XzE1NjY5OTU4NjRfMDc3/screen-6.webp?fakeurl=1&type=.webp);
+    background-size: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 500px;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 510px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    line-height: 45px;
+}
+
+#button{
+    margin-top: 15px;
+}
+
+h1{
+    display: block;
+    background-color: black;
+    color: white;
+    width: 280px;
+    margin-left: 470px;
 }
