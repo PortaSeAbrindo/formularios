@@ -6,11 +6,37 @@
     <title>Cadastro de Pessoas</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body id="cadastro">
     <h1>Cadastro de Pessoas</h1>
     <hr>
-    <form action="">
-        
+    <form action="./grava.php" method="post">
+        <label for="txtNome">Nome Completo</label>
+        <input type="text" name="txtNome" id="txtNome">
+        <label for="data">Data de nascimento</label>
+        <input type="date" name="data" id="data">
+        <label for="e-mail">E-mail</label>
+        <input type="email" name="e-mail" id="e-mail">
+        <label for="numero">Telefone</label>
+        <input type="number" name="numero" id="numero">
+        <label for="txtEndereço">Endereço</label>
+        <input type="text" name="txtEndereço" id="txtEndereço">
+        <label for="Estado">Estado</label>
+        <select name="Estado" id="Estado">
+            <option value="opção1">Rio Grande do Sul</option>
+            <option value="opção2">Rio de Janeiro</option>
+            <option value="opção3">Ceará</option>
+            <option value="opção4">Maranhão</option>
+            <option value="opção5">Palmeiras</option>
+        </select>
+        <label for="Cidade">Cidade</label>
+        <select name="Cidade" id="Cidade">
+            <option value="opção1">Porto Alegre</option>
+            <option value="opção2">Rio de Janeiro</option>
+            <option value="opção3">Fortaleza</option>
+            <option value="opção4">São Luís</option>
+            <option value="opção5">Itália</option>
+        </select>
+        <input type="button" value="Cadastrar">
     </form>
 
     <script src="./script.js"></script>
