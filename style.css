@@ -1,6 +1,9 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#cadastro{
     background-image: url(https://image.winudf.com/v2/image1/Y29tLlNwYWNlTGl2ZVdhbGxwYXBlckhEX3NjcmVlbl82XzE1NjY5OTU4NjRfMDc3/screen-6.webp?fakeurl=1&type=.webp);
     background-size: 100%;
 }
@@ -26,10 +29,36 @@ form{
     margin-top: 15px;
 }
 
-h1{
+#h1form{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#formularios{
+    background-image: url(https://img.wallpapic.com/i1862-037-811/medium/space-purple-blue-astronomy-wallpaper.jpg);
+    background-size: 100%;
+}
+
+#h1cad{
     display: block;
     background-color: black;
     color: white;
     width: 280px;
     margin-left: 470px;
+}
+
+#listaform li {
+    list-style: none;
+    font-size: 50px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
