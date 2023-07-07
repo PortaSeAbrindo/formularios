@@ -12,17 +12,20 @@ form{
     display: flex;
     flex-direction: column;
     width: 200px;
-    height: 500px;
+    height: 400px;
     align-items: center;
     position: relative;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     margin-left: 510px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     background-color: black;
     color: white;
-    line-height: 45px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    padding: 5px;
 }
 
 #button{
@@ -43,10 +46,12 @@ form{
 
 #h1cad{
     display: block;
-    background-color: black;
     color: white;
     width: 280px;
     margin-left: 470px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 #listaform li {
@@ -61,4 +66,37 @@ form{
 a{
     text-decoration: none;
     color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#linkcad{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 540px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: black;
+    color: aqua;
+}
+
+#divsearch{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    width: auto;
+    padding-right: 40px;
+    vertical-align: middle;
+}
+
+#search{
+    height: 35px;
+    border-radius: 16px;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: gray;
+    border: 1px solid gray;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
 }
