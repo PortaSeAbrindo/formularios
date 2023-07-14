@@ -103,3 +103,58 @@ a{
     background-image: url(https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1609953743894-8HS91P0Q9F0E5A76K5PM/23.jpg);
     background-size: 100%;
 }
+
+#login{
+    background-image: url(https://wallpapers.com/images/hd/solar-system-outer-space-3pae4flbryaputyl.jpg);
+    background-size: 100%;
+}
+
+#divlogin{
+    margin-left: 425px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    width: 100px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-left: 70px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#email{
+    height: 20px;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#password{
+    height: 20px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.labellogin{
+    color: white;
+    font-size: 20px;
+}
+
+#h1login{
+    display: block;
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+}
+
+#buttonlogin{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
