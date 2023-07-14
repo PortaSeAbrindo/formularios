@@ -40,7 +40,7 @@ form{
 }
 
 #formularios{
-    background-image: url(https://img.wallpapic.com/i1862-037-811/medium/space-purple-blue-astronomy-wallpaper.jpg);
+    background-image: url(https://i.ytimg.com/vi/eTD0WWFIDAg/maxresdefault.jpg);
     background-size: 100%;
 }
 
@@ -58,7 +58,7 @@ form{
     list-style: none;
     font-size: 50px;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 59px;
     text-align: center;
     margin-right: 40px;
 }
@@ -78,25 +78,28 @@ a{
     padding: 5px;
     border-radius: 25px;
     background-color: black;
-    color: aqua;
 }
 
 #divsearch{
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 50px;
+    margin-top: 250px;
     display: inline-block;
     width: auto;
     padding-right: 40px;
-    vertical-align: middle;
 }
 
 #search{
-    height: 35px;
+    height: 80px;
     border-radius: 16px;
     padding: 12px;
-    font-size: 16px;
+    font-size: 36px;
     line-height: 1.5;
     color: gray;
     border: 1px solid gray;
     box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+
+#busca{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1609953743894-8HS91P0Q9F0E5A76K5PM/23.jpg);
+    background-size: 100%;
 }
